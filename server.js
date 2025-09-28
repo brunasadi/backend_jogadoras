@@ -3,7 +3,7 @@ import cors from "cors";
 import fetch from "node-fetch"; // npm install node-fetch
 
 // Importa as jogadoras
-import { jogadoras } from "./Jogadoras.js";
+import { jogadoras } from "./api/Jogadoras.js";
 
 const app = express();
 const PORT = process.env.PORT || 5000;
